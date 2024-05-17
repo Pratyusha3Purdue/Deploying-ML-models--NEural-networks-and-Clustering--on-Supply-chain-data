@@ -35,7 +35,7 @@ In each iteration of the training loop, the following steps occur:
 ● Backpropagation: Compute the gradient of the loss function with respect to the weights. This involves taking the derivative of the sigmoid function and adjusting the weights based on the gradient.
 
 After training, the network uses the learned weights to make predictions on the test data, based on the probability that a given shipment will be delayed.
-We were able to predict delays accurately 70% of the time.
+We were able to predict delays **accurately 70%** of the time.
 
 **3.** We applied the **K-means clustering** technique to cluster the suppliers into three groups according to their lead time and defect rates. This model leverages the balance of product quality and efficiency and could potentially help the company to choose more proper suppliers in the future.
 
