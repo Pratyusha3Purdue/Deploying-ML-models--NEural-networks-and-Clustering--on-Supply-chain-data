@@ -37,19 +37,22 @@ In each iteration of the training loop, the following steps occur:
 After training, the network uses the learned weights to make predictions on the test data, based on the probability that a given shipment will be delayed.
 We were able to predict delays accurately 70% of the time.
 
-**3.** We applied the **k-means clustering** technique to cluster the suppliers into three groups according to their lead time and defect rates. This model leverages the balance of product quality and efficiency and could potentially help the company to choose more proper suppliers in the future.
+**3.** We applied the **K-means clustering** technique to cluster the suppliers into three groups according to their lead time and defect rates. This model leverages the balance of product quality and efficiency and could potentially help the company to choose more proper suppliers in the future.
+
 We first performed **Data Encoding and Normalization:**
 Categorical features ('Supplier name,' 'Location,' and 'Transportation modes') were converted to numerical values using Label Encoding.
 Numerical features ('Lead times' and 'Defect rates') were standardized using StandardScaler to ensure they have a mean of 0 and a standard deviation of 1.
-**K-means Clustering:**
-K-means clustering was applied to the processed features, grouping the data into 3 clusters. Each data point (observation) was assigned a cluster label, which was added to the original dataset.
+
+**K-means Clustering** was applied to the processed features, grouping the data into 3 clusters. Each data point (observation) was assigned a cluster label, which was added to the original dataset.
 
 Dimensionality Reduction with **Principal Component Analysis (PCA)**:
 PCA was performed on the clustering features to reduce the data from its original dimensionality to 2 principal components(most significant).
 
 
-Scatter Plot Visualization:
-A scatter plot was created using the two principal components (PC1 = 'Supplier and Transportation.' and PC2 ='Geographic and Defect rates.') as the axes, with colors representing the different clusters.
+A **scatter plot** was created using the two principal components (PC1 = 'Supplier and Transportation.' and PC2 ='Geographic and Defect rates.') as the axes, with colors representing the different clusters.
+
+![image](https://github.com/Pratyusha3Purdue/USing-NEural-networks-and-CLustering-to-Improve-Supply-chain/assets/141969918/f0c861f1-289c-4591-8de2-83de06fa18c7)
+
 
 **Cluster Insights:**
 Yellow Cluster: Observations in this cluster showed a wide range of supplier and transportation variations but were mostly around lower geographic and defect rate variations.
