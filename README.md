@@ -13,6 +13,7 @@ SKU) are constrained to be non-negative (you can't order a negative number of it
 
 **2.** **Neural network** implementation to Predict Delays
 Built a model for predicting delays in shipments, using neural networks.
+
 WE used 80% data for training the model and 20% to test the model.
 
 **Components of the Neural Network in the Code:**
