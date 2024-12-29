@@ -1,4 +1,37 @@
 # Suggesting Improvements in Supply chain using Machine learning and Linear Programming
+
+## Problem Statement
+This project focuses on leveraging machine learning models, including neural networks and clustering techniques, to optimize supply chain operations and improve decision-making processes.
+
+### Dataset Overview
+Domain: Supply Chain Management.
+Key Features:
+Demand Data: Historical demand and patterns.
+Costs: Setup costs, unit costs, shipping costs.
+Inventory Metrics: Stock levels, production volumes.
+Categorical Features: Product types, regions, suppliers.
+### Methodology
+1. Data Cleaning
+Handled missing values and outliers in key metrics like demand, costs, and inventory levels.
+Standardized numerical features for compatibility with machine learning algorithms.
+Encoded categorical variables using one-hot encoding and label encoding as needed.
+2. Exploratory Data Analysis (EDA)
+Investigated correlations between demand, costs, and inventory metrics.
+Visualized the distribution of costs and demand across product types and regions.
+Identified clusters of similar suppliers based on costs and demand patterns.
+3. Machine Learning Models
+Clustering:Applied K-Means clustering to segment suppliers and identify patterns in their demand and cost profiles.
+Visualized clusters in 2D using PCA for dimensionality reduction.
+Neural Networks:Built a deep learning model to predict demand based on historical data and supply chain features.
+Optimized hyperparameters using grid search and cross-validation.
+4. Model Evaluation
+Evaluated the clustering model using silhouette scores and cluster visualizations.
+Assessed the neural network’s performance with metrics such as Mean Squared Error (MSE) and R-Squared on test data.
+Visualized predicted vs. actual demand to measure model accuracy.
+5. Deployment and Insights
+Created a web application for real-time demand prediction and supplier segmentation.
+Provided actionable insights for inventory optimization and cost reduction.
+
 **1.** We used **linear programming** to determine the optimal number of units to order for each Product
 type and also for each SKU (Stock Keeping Unit) in a supply chain to minimize costs.
 
