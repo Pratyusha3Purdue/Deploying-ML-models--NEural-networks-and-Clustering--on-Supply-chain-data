@@ -32,6 +32,9 @@ Visualized predicted vs. actual demand to measure model accuracy.
 Created a web application for real-time demand prediction and supplier segmentation.
 Provided actionable insights for inventory optimization and cost reduction.
 
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+## In dept Model description
 **1.** We used **linear programming** to determine the optimal number of units to order for each Product
 type and also for each SKU (Stock Keeping Unit) in a supply chain to minimize costs.
 
