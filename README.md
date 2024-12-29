@@ -11,24 +11,24 @@ Costs: Setup costs, unit costs, shipping costs.
 Inventory Metrics: Stock levels, production volumes.
 Categorical Features: Product types, regions, suppliers.
 ### Methodology
-1. Data Cleaning
+#### 1. Data Cleaning: 
 Handled missing values and outliers in key metrics like demand, costs, and inventory levels.
 Standardized numerical features for compatibility with machine learning algorithms.
 Encoded categorical variables using one-hot encoding and label encoding as needed.
-2. Exploratory Data Analysis (EDA)
+#### 2. Exploratory Data Analysis (EDA) :
 Investigated correlations between demand, costs, and inventory metrics.
 Visualized the distribution of costs and demand across product types and regions.
 Identified clusters of similar suppliers based on costs and demand patterns.
-3. Machine Learning Models
+#### 3. Machine Learning Models :
 Clustering:Applied K-Means clustering to segment suppliers and identify patterns in their demand and cost profiles.
 Visualized clusters in 2D using PCA for dimensionality reduction.
 Neural Networks:Built a deep learning model to predict demand based on historical data and supply chain features.
 Optimized hyperparameters using grid search and cross-validation.
-4. Model Evaluation
+#### 4. Model Evaluation :
 Evaluated the clustering model using silhouette scores and cluster visualizations.
 Assessed the neural network’s performance with metrics such as Mean Squared Error (MSE) and R-Squared on test data.
 Visualized predicted vs. actual demand to measure model accuracy.
-5. Deployment and Insights
+#### 5. Deployment and Insights :
 Created a web application for real-time demand prediction and supplier segmentation.
 Provided actionable insights for inventory optimization and cost reduction.
 
